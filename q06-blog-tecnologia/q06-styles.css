@@ -1,0 +1,26 @@
+body {
+    background-color: #E3E0D9;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: #D362A2
+
+}
+
+h2 {
+    color: #66CDD9
+}
+
+.autor {
+    text-align: right;
+    background-color:#DA716E
+}
+
+.separador {
+    text-align: center;
+    color:#66CDD9
+}

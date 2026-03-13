@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to left, #808080, #000000);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p {
+    color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: #FFFFFF;
+
+}
+
+h2 {
+    color: #D3D3D3;
+}
+
+.autor {
+    text-align: right;
+    background-color:#4F4F4F;
+}
+
+.separador {
+    text-align: center;
+    color:#A9A9A9;
+}
