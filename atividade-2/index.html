@@ -1,77 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Blog de Tecnologia</title>
 </head>
 <body>
     
-    
-    <h1><span class="destaque">Mini Blog de Tecnologia</span></h1>
-     <h2>Primeiros passos com HTML</h2>
-     <p>HTML é a base das páginas web. Com ele organizamos títulos, textos e a estrutura do conteúdo apresentado no navegador</p>
-     <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
-     <h2>O papel do CSS</h2>
+    <h1><span class="destaque" id="menu">Mini Blog de Tecnologia</span></h1>
+
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="#post-1">Primeiros passos com HTML</a></li>
+        <li><a href="#post-2">O papel do CSS</a></li>
+        <li><a href="#post-3">Validação do código</a></li>
+        <li><a href="#post-4">Código</a></li>
+        <li><a href="#post-5">Tilt Neon</a></li>
+        <li><a href="#post-6">Usando o font-weight</a></li>
+        <li><a href="#post-7">Usando o oblique</a></li>
+        <li><a href="#post-8">Teste de Resolução de Imagens</a></li>
+        <li><a href="#post-9">Lista Ordenada (Bebidas)</a></li>
+        <li><a href="#post-10">Lista Encadeada (To-do List)</a></li>
+    </ul>
+
+    <h2 id="post-1">Primeiros passos com HTML</h2>
+    <p>HTML é a base das páginas web. Com ele organizamos títulos, textos e a estrutura do conteúdo apresentado no navegador</p>
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
+
+    <h2 id="post-2">O papel do CSS</h2>
     <p>O CSS define a aparência da página. Ele permite alterar cores, alinhamentos e tipografia, tornando os sites mais agradáveis visualmente.</p>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
-    <h2>Validação do código</h2>
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
+
+    <h2 id="post-3">Validação do código</h2>
     <p>Validar o HTML ajuda a encontrar erros e manter o código organizado, seguindo os padrões recomendados para o desenvolvimento web.</p>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
-    <h2>Código</h2>
-        <pre>
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
+
+    <h2 id="post-4">Código</h2>
+    <pre>
     def imprimir_padrao(num_linhas):
         for i in range(num_linhas):
             for num_colunas in range(num_linhas-i):
                 print("*", end="")
 
         print()</pre>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
-    <h2>Texto aleatório</h2>
-    <p id="aleatory">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias odit doloremque et consequatur ea iste provident possimus libero quia maiores explicabo impedit aut inventore, aliquam officiis delectus ad repudiandae perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestiae provident voluptatem tempore aliquam quae rerum magnam ea, architecto facilis vitae aliquid commodi repellat amet optio quisquam? Voluptatum, aliquid eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officia accusantium cumque atque sequi numquam maxime ipsam vitae perspiciatis aspernatur. Alias voluptas earum non enim, corrupti reprehenderit voluptate dolor ipsam!</p>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
 
-     
-    <h2> Frase 1 </h2>
-    <p class="phrase1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae vel magnam minus nobis, rerum odio nesciunt sit. Rerum est commodi modi. Optio voluptas enim et aut autem asperiores culpa ea.</p>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
+    <h2 id="post-5">Tilt Neon</h2>
+    <p id="text-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias odit doloremque et consequatur ea iste provident possimus libero quia maiores explicabo impedit aut inventore, aliquam officiis delectus ad repudiandae perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestiae provident voluptatem tempore aliquam quae rerum magnam ea, architecto facilis vitae aliquid commodi repellat amet optio quisquam? Voluptatum, aliquid eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officia accusantium cumque atque sequi numquam maxime ipsam vitae perspiciatis aspernatur. Alias voluptas earum non enim, corrupti reprehenderit voluptate dolor ipsam!</p>
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
 
-    <h2>negrito 700</h2>
-    <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae vel magnam minus nobis, rerum odio nesciunt sit. Rerum est commodi modi. Optio voluptas enim et aut autem asperiores culpa ea.</p>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
+    <h2 id="post-6">Usando o font-weight</h2>
+    <h3>Estilo Normal</h3>
+    <p class="phrase1">“A mentira é o único privilégio humano em relação a todos os organismos. A gente vai mentindo até chegar à verdade! É porque eu minto que eu sou também um ser humano.” – Fiódor Dostoiévski, Crime e Castigo.</p>
 
-    <h2>negrito 900</h2>
-    <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae vel magnam minus nobis, rerum odio nesciunt sit. Rerum est commodi modi. Optio voluptas enim et aut autem asperiores culpa ea.</p>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
+    <h3>Estilo Bold 700</h3>
+    <p class="p1">“A mentira é o único privilégio humano em relação a todos os organismos. A gente vai mentindo até chegar à verdade! É porque eu minto que eu sou também um ser humano.” – Fiódor Dostoiévski, Crime e Castigo.</p>
 
+    <h3>Estilo Bold 900</h3>
+    <p class="p2">“A mentira é o único privilégio humano em relação a todos os organismos. A gente vai mentindo até chegar à verdade! É porque eu minto que eu sou também um ser humano.” – Fiódor Dostoiévski, Crime e Castigo</p>
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
 
-    <h2> Frase 2</h2>
-    <p class="phrase2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae vel magnam minus nobis, rerum odio nesciunt sit. Rerum est commodi modi. Optio voluptas enim et aut autem asperiores culpa ea.</p>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
+    <h2 id="post-7">Usando o oblique</h2>
+    <p class="phrase2">“Eu vos digo: é preciso ter ainda caos dentro de si, para poder dar à luz uma estrela dançante.”
+         – Friedrich Nietzsche, Assim falou Zaratustra
+    </p>
 
-    <h2>inclinação 10</h2>
-    <p class="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae vel magnam minus nobis, rerum odio nesciunt sit. Rerum est commodi modi. Optio voluptas enim et aut autem asperiores culpa ea.</p>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
+    <h3>Inclinação 10 graus</h3>
+    <p class="p3">“Eu vos digo: é preciso ter ainda caos dentro de si, para poder dar à luz uma estrela dançante.”
+         – Friedrich Nietzsche, Assim falou Zaratustra</p>
 
-    <h2>inclinação 20</h2>
-    <p class="p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae vel magnam minus nobis, rerum odio nesciunt sit. Rerum est commodi modi. Optio voluptas enim et aut autem asperiores culpa ea.</p>
-    <p class="autor">Autor: Ely Miranda | Data: 08/03/2026</p>
-     <p class="separador">&#9733; &#9733; &#9733; </p>
+    <h3>Inclinação 20 graus</h3>
+    <p class="p4">“Eu vos digo: é preciso ter ainda caos dentro de si, para poder dar à luz uma estrela dançante.”
+         – Friedrich Nietzsche, Assim falou Zaratustra</p>
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
 
+    <h2 id="post-8">Teste de Resolução de Imagens</h2>
+    
+    <h3>Imagem baixa resolução</h3>
+    <img class="img-teste" src="https://github.com/malusccp/ppi-I/blob/main/atividade-2/bee-low.jpg?raw=true" alt="imagem de baixa resolução">
+    <p>Imagem leve e rápida.</p>
 
+    <h3>Imagem média resolução</h3>
+    <img class="img-teste" src="https://github.com/malusccp/ppi-I/blob/main/atividade-2/bee-medium.jpg?raw=true" alt="imagem de média resolução">
+    <p>Equilíbrio entre qualidade e desempenho.</p>
 
+    <h3>Imagem alta resolução</h3>
+    <img class="img-teste" src="https://github.com/malusccp/ppi-I/blob/main/atividade-2/bee-high.jpg?raw=true" alt="imagem de alta resolução">
+    <p>Alta qualidade, maior tempo de carregamento.</p>
+    
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
+    
+    <h2 id="post-9">Lista Ordenada</h2>
+    <div class="list-drinks">
+    <ol >
+        <li>Frapuccino de Caramelo</li>
+        <li>Água</li>
+        <li>Coca-Cola Zero</li>
+        <li>Suco de Maracujá</li>
+    </ol>
+    </div>
+    
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
 
+    <h2 id="post-10">Lista Encadeada</h2>
+
+    <div class="to-do-list">
+        <ol>
+            <li>Aprender HTML
+                <ol>
+                    <li id="first-child">Revisar estrutura básica</li>
+                    <li>Criar páginas com títulos</li>
+                    <li>Inserir parágrafos e listas</li>
+                </ol>
+            </li>
+
+            <li>Aprender CSS
+                <ol>
+                    <li>Aplicar cores e fontes</li>
+                    <li id="second-child">Centralizar elementos</li>
+                    <li>Ajustar margens e espaçamentos</li>
+                </ol>
+            </li>
+
+            <li>Aprender JavaScript
+                 <ol>
+                    <li>Criar botão de teste</li>
+                    <li>Mostrar mensagem com alert</li>
+                    <li>Alterar conteúdo de um elemento</li>
+                </ol>
+            </li>
+        </ol>
+        </div>
+
+    <p class="autor"><a href="#menu">Autor: Ely Miranda | Data: 08/03/2026</a></p>
+    <p class="separador">&#9733; &#9733; &#9733; </p>
 
 </body>
 </html>
