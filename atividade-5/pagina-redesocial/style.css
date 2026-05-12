@@ -1,0 +1,8 @@
+.oculto {
+display: none;
+}
+
+#msgErro {
+color: red;
+margin-top: 10px;
+}
